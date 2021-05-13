@@ -26,14 +26,24 @@ const Grid = () => {
         Our Creations
       </h2>
 
-      <div className="flex flex-wrap mx-8 mb-2">
+      <div className="flex flex-wrap mx-4 mb-2">
         {images.map(({ img, text }) => {
           return (
-            <div className="relative w-full md:w-1/2 lg:w-1/4 px-2 mb-10" key={text}>
-              <div className=" h-36 text-sm  text-grey-dark flex items-center justify-center">
-              </div>
-              <div className="absolute bottom-4 left-6 ">
-                <p className ="uppercase text-white text-2xl w-3/4 ">{text}</p>
+            <div
+              className="relative w-full md:w-1/2 lg:w-1/4 px-2 mb-8"
+              key={text}
+            >
+              <div
+                className=" h-36 grid-image text-sm bg-no-repeat  bg-top bg-cover  "
+                style={{
+                  backgroundImage: ` linear-gradient(to left bottom, #0000, #000000ab),url(${img})`,
+                }}
+              ></div>
+
+              <div className="absolute   flex items-end bottom-4 left-9">
+                <p className="uppercase text-white text-2xl w-3/4 tracking-wider  leading-7">
+                  {text}
+                </p>
               </div>
             </div>
           )
