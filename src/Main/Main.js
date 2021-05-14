@@ -4,15 +4,6 @@ import Grid from './Grid'
 import Body from './Body'
 
 const Main = () => {
-  const [windowWidth, setWindowWidth] = React.useState(false)
-  React.useEffect(() => {
-    const mediaQuery = window.matchMedia('(min-width:768px)')
-    mediaQuery.matches
-      ? setWindowWidth(!windowWidth)
-      : setWindowWidth(windowWidth)
-    console.log(windowWidth)
-  }, [])
-
   return (
     <div className="main  font-primary ">
       {/* Body of page */}

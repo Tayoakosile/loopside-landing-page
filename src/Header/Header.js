@@ -1,13 +1,23 @@
 import React from 'react'
 import Logo from '../assets/images/logo.svg'
 import Nav from './Nav'
+import HeaderImage from '../assets/images/mobile/image-hero.jpg'
+import desktopHeaderImage from '../assets/images/desktop/image-hero.jpg'
+const Header = ({ viewPortControl }) => {
 
-const Header = () => {
+  function changeImageBasedOnWindowViewport() {
+    const image = !viewPortControl ? HeaderImage : desktopHeaderImage
+    return `url(${image})`
+  }
+  console.log(changeImageBasedOnWindowViewport())
   return (
-    <header className="header mb-24 font-primary w-full  h-screen relative bg-no-repeat  bg-cover">
+    <header
+      className="header mb-24 font-primary w-full  h-screen relative bg-no-repeat  bg-cover lg:bg-top "
+      style={{ backgroundImage: changeImageBasedOnWindowViewport() }}
+    >
       <div className="flex  justify-between mx-6 h-28 items-center">
         <div>
-          <a href="#">
+          <a href="/">
             <img
               src={Logo}
               className="w-40 h-24 object-contain"
