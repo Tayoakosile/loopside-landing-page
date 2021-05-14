@@ -19,5 +19,7 @@
   .header {
     background-image: url('./assets/images/mobile/image-hero.jpg');
   }
- 
+  .nav-menu {
+    @apply fixed bg-black top-0 left-0 right-0 bottom-0 transform -translate-x-full text-white z-50;
+  }
 }

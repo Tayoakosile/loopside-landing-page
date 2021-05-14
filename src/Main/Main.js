@@ -1,8 +1,7 @@
 import React from 'react'
 
 import Grid from './Grid'
-
-import HeaderImage from '../assets/images/mobile/image-interactive.jpg'
+import Body from './Body'
 
 const Main = () => {
   const [windowWidth, setWindowWidth] = React.useState(false)
@@ -16,25 +15,11 @@ const Main = () => {
 
   return (
     <div className="main  font-primary ">
-      <div className="header-one ">
-        <div className="mx-10">
-          <img src={HeaderImage} alt="A man with a virtual reality" />
-        </div>
+      {/* Body of page */}
+      {/* Body of page */}
 
-        <div className="text-center mx-6 mt-10 ">
-          <h2 className="text-4xl uppercase  font-light">
-            The Leader in interactive Vr
-          </h2>
-          <p className="mx-6 pt-4 font-secondary text-darkerGray font-normal">
-            Founded in 2011, Loopstudios has been producing world-class virtual
-            reality projects for some of the best companies around the globe.
-            Our award-winning creations have transformed businesses through
-            digital experiences that bind to their brand.
-          </p>
-        </div>
-      </div>
-
-      {/* Grid */}
+      {/*Image Grid Grid */}
+      <Body />
       <Grid />
       {/*  Grid*/}
       <div className="flex justify-center">
