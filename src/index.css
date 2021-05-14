@@ -16,8 +16,13 @@
     height: 100vh;
   }
   /* body{} */
-  
+
   .nav-menu {
     @apply fixed bg-black top-0 left-0 right-0 bottom-0 transform  text-white z-50;
+  }
+  @media screen and (min-width: 1000px) {
+    .grid-height {
+      height: 30rem;
+    }
   }
 }
