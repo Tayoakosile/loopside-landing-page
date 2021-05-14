@@ -3,17 +3,12 @@ import React from 'react'
 // ? internal
 import Logo from '../assets/images/logo.svg'
 import DesktopNav from './DesktopNav'
+import MobileNavBar from './MobileNavBar'
 
-const Nav = () => {
+const Nav = ({ navBarControl }) => {
   // This opens and closes the menu
-  const [menu, setMenu] = React.useState(false)
 
-  return (
-    <>
-      <DesktopNav />
-      <DesktopNav />
-    </>
-  )
+  return <>{!navBarControl ? <MobileNavBar /> : <DesktopNav />}</>
 }
 
 export default Nav

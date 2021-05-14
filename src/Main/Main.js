@@ -3,14 +3,14 @@ import React from 'react'
 import Grid from './Grid'
 import Body from './Body'
 
-const Main = () => {
+const Main = ({ viewPortControl }) => {
   return (
     <div className="main  font-primary ">
       {/* Body of page */}
       {/* Body of page */}
 
       {/*Image Grid Grid */}
-      <Body />
+      <Body viewPortControl={viewPortControl} />
       <Grid />
       {/*  Grid*/}
       <div className="flex justify-center">

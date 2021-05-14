@@ -12,14 +12,13 @@ const App = () => {
   React.useEffect(() => {
     setInterval(() => {
       viewPort.matches ? setWindowWidth(true) : setWindowWidth(false)
-      console.log(viewPort)
-    }, 2000)
-  }, [])
+    }, 200)
+  })
 
   return (
     <>
       <Header viewPortControl={windowWidth} />
-      <Main />
+      <Main  viewPortControl={windowWidth}/>
       <Footer />
     </>
   )
