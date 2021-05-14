@@ -12,7 +12,7 @@ const Body = ({ viewPortControl }) => {
 
   return (
     <div className="header-one relative lg:ml-12">
-      <div className="mx-10  lg:ml-32">
+      <div className="mx-10  lg:ml-14">
         <img
           src={changeImageBasedOnWindowViewport()}
           className="object-contain"
@@ -20,7 +20,7 @@ const Body = ({ viewPortControl }) => {
         />
       </div>
 
-      <div className="text-center mx-6 lg:mx-0 mt-10  lg:w-2/5 lg:h-3/5  lg:absolute lg:bottom-0 lg:right-24  bg-white">
+      <div className="text-center mx-6 lg:mx-0 mt-10  lg:w-2/5 lg:h-3/5  lg:absolute lg:bottom-0 lg:right-44  bg-white">
         <h2 className="text-4xl lg:text-5xl lg:pt-20 lg:pl-0 uppercase font-light">
           The Leader in interactive Vr
         </h2>

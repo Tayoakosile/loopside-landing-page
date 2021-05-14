@@ -9,7 +9,7 @@ const DesktopFooter = () => {
   return (
     <div
       className="bg-black pb-6 mt-32 text-white flex 
-    justify-between px-12 pt-10 items-center"
+    justify-between px-24 pt-10 items-center"
     >
       {/* First Section */}
       <div>
@@ -23,24 +23,24 @@ const DesktopFooter = () => {
           </a>
         </div>
 
-        <nav className="">
-          <ul className="flex  ">
-            <li className="pb-4">
+        <nav>
+          <ul className="flex justify-between w-full font-secondary">
+            <li className="pb-4 pr-6">
               <a href="#">About</a>
             </li>
-            <li className="pb-4">
+            <li className="pb-4 pr-6">
               <a href="#">Careers</a>
             </li>
-            <li className="pb-4">
+            <li className="pb-4 pr-6">
               <a href="#">Events</a>
             </li>
-            <li className="pb-4">
+            <li className="pb-4 pr-6">
               <a href="#">Products</a>
             </li>
-            <li className="pb-4">
+            <li className="pb-4 pr-6">
               <a href="#">Support</a>
             </li>
-          </ul>
+          </ul> 
         </nav>
       </div>
 
