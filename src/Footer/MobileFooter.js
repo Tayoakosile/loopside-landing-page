@@ -36,6 +36,8 @@ const MobileFooter = () => {
             <a href="#">Support</a>
           </li>
         </ul>
+
+      
       </nav>
 
       {/* Social Media icons */}

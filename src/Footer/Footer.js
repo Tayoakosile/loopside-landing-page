@@ -4,7 +4,7 @@ import DesktopFooter from './DesktopFooter'
 const Footer = () => {
   return (
     <div>
-      <MobileFooter />
+      {/* <MobileFooter /> */}
       <DesktopFooter />
     </div>
   )
