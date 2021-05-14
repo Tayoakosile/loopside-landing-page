@@ -26,19 +26,19 @@ const DesktopFooter = () => {
         <nav>
           <ul className="flex justify-between w-full font-secondary">
             <li className="pb-4 pr-6">
-              <a href="#">About</a>
+              <a href="/">About</a>
             </li>
             <li className="pb-4 pr-6">
-              <a href="#">Careers</a>
+              <a href="/">Careers</a>
             </li>
             <li className="pb-4 pr-6">
-              <a href="#">Events</a>
+              <a href="/">Events</a>
             </li>
             <li className="pb-4 pr-6">
-              <a href="#">Products</a>
+              <a href="/">Products</a>
             </li>
             <li className="pb-4 pr-6">
-              <a href="#">Support</a>
+              <a href="/">Support</a>
             </li>
           </ul>
         </nav>

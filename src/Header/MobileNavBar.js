@@ -49,19 +49,19 @@ const MobileNav = () => {
           }`}
           >
             <li className="pb-4">
-              <a href="#">About</a>
+              <a href="/">About</a>
             </li>
             <li className="pb-4">
-              <a href="#">Careers</a>
+              <a href="/">Careers</a>
             </li>
             <li className="pb-4">
-              <a href="#">Events</a>
+              <a href="/">Events</a>
             </li>
             <li className="pb-4">
-              <a href="#">Products</a>
+              <a href="/">Products</a>
             </li>
             <li className="pb-4">
-              <a href="#">Support</a>
+              <a href="/">Support</a>
             </li>
           </div>
         </ul>

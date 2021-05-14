@@ -1,7 +1,6 @@
 import React from 'react'
 
 // ? internal
-import Logo from '../assets/images/logo.svg'
 import DesktopNav from './DesktopNav'
 import MobileNavBar from './MobileNavBar'
 
