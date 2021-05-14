@@ -9,11 +9,11 @@ const DesktopFooter = () => {
   return (
     <div
       className="bg-black pb-6 mt-32 text-white flex 
-    justify-between px-24 pt-10 items-center"
+    justify-between px-36 pt-10 items-center"
     >
       {/* First Section */}
       <div>
-        <div className="pb-4">
+        <div className="pb-6">
           <a href="/">
             <img
               src={Logo}
@@ -40,12 +40,12 @@ const DesktopFooter = () => {
             <li className="pb-4 pr-6">
               <a href="#">Support</a>
             </li>
-          </ul> 
+          </ul>
         </nav>
       </div>
 
       {/* Second Section */}
-      <div className="flex flex-col">
+      <div className="flex flex-col  items-center">
         {/* Social Media icons */}
         <div className="flex justify-between mx-3 pb-4  w-44">
           <div>

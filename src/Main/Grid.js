@@ -49,7 +49,7 @@ const Grid = ({ viewPortControl }) => {
         {images.map(({ img, text }) => {
           return (
             <div
-              className="relative w-full md:w-1/2 lg:w-1/4 px-2 lg:px-4  mb-8"
+              className="relative w-full cursor-pointer md:w-1/2 lg:w-1/4 px-2 lg:px-4  mb-8"
               key={text}
             >
               <div
@@ -59,8 +59,8 @@ const Grid = ({ viewPortControl }) => {
                 }}
               ></div>
 
-              <div className="absolute   flex items-end bottom-4 lg:bottom-6 left-9 lg:left-14">
-                <p className="uppercase text-white text-2xl lg:text-3xl w-3/4 tracking-wider  leading-7">
+              <div className="absolute  flex items-end bottom-4 lg:bottom-6 left-9 lg:left-14">
+                <p className="uppercase hover:text-black text-white text-2xl lg:text-3xl w-3/4 tracking-wider  leading-7">
                   {text}
                 </p>
               </div>

@@ -18,8 +18,8 @@ const App = () => {
   return (
     <>
       <Header viewPortControl={windowWidth} />
-      <Main  viewPortControl={windowWidth}/>
-      <Footer />
+      <Main viewPortControl={windowWidth} />
+      <Footer viewPortControl={windowWidth} />
     </>
   )
 }
